@@ -17,5 +17,6 @@ int main(int argc, char *argv[]) {
 }
 
 void my_function(char **a) {
+    free(*a);
     *a = NULL;
 }
